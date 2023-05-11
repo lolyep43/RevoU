@@ -231,7 +231,7 @@ ol ol li:last-child {margin-bottom:0;}
 .packages-light ul li {
   list-style: none;
   padding: 50px 60px;
-  background-image: url("/images/grey-icon-11.jpg");
+  background-image: url("images\grey-icon-11.jpg");
   background-repeat: no-repeat;
   background-position: 0 70px;
   background-size: 50px;
@@ -260,7 +260,7 @@ ol ol li:last-child {margin-bottom:0;}
 .packages-stars ul li {
   list-style: none;
   padding: 50px 60px;
-  background-image: url("/images/star-6-512.png");
+  background-image: url("images\star-6-512.png");
   background-repeat: no-repeat;
   background-position: 0 70px;
   background-size: 50px;
