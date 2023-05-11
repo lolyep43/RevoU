@@ -1,0 +1,317 @@
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 30px 40px;
+  display: flex;
+  border-collapse: collapse;
+}
+
+.navbar ul li {
+  border-radius: 3px;
+  color: #000;
+  font-weight: 500;
+  padding: 10px 20px 0 20px;
+  border: 1px solid;
+}
+
+.logo {
+  font-family: 'Pacifico';
+  font-size: 15px;
+  padding: 10px 40px;
+  color: #333;
+  text-align: center;
+}
+
+hr {
+  opacity: 30%;
+}
+
+main {
+  background-color: #fff;
+}
+
+.kata {
+  margin: 3.5rem;
+}
+
+.kata h2 {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+.kata p {
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  opacity: 50%;
+}
+
+.bagian-form{
+  padding: 0 0 0 6rem;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.bagian-form-kiri{
+  margin-top: 18px;
+  display: inline;
+}
+
+.bagian-form-kanan{
+  display: inline;
+}
+
+.bagian-gambar{
+  margin: 0 30px;
+  image-resolution: 400px 300px;
+}
+
+.bagian-input{
+  width: 400px;
+  height: 650px;
+  background-color:#eeebee;
+  border-radius: 20px;
+}
+
+.bagian-input-text {
+  padding: 10px;
+  margin: 20px 20px;
+}
+
+.form {
+	margin: 20px;
+	flex-basis: calc(50% - 40px);
+	background-color: transparent;
+	padding: 20px;
+	width: 80%;
+	text-align: left;
+}
+
+label {
+	font-weight: bolder;
+}
+.form h2{
+	margin-bottom: 15px;
+}
+
+.form p {
+	margin-bottom: 50px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"],
+.form select,
+.form textarea {
+	display: block;
+	margin: 20px 0 20px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	width: 80%;
+	max-width: 400px;
+}
+
+.form input[type="submit"] {
+	background-color: #11052b;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	display: block;
+	margin: 20px auto;
+	padding: 20px;
+	border: none;
+	width: 100%;
+	max-width: 400px;
+}
+
+.form input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+.bagian-form-kiri h3{
+  margin-top: 30px;
+  font-size: 20px;
+  color: black;
+  opacity: 50%;
+  margin-left: 8rem;
+}
+
+.bagian-respons {
+  margin-top: 3rem;
+  margin-left: 7.5rem;
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.bagian-respons img{
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+}
+
+.bagian-respons-text{
+  margin-left: 15px;
+  display: inline;
+}
+
+.bagian-respons-text h4{
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.bagian-respons-text p{
+  margin-top: 0;
+  color: #333;
+  font-size: 16px;
+}
+
+.bagian-respons-list{
+  display: inline;
+}
+
+.bagian-respons-list ol {
+  counter-reset:li; /* Initiate a counter */
+  margin-left:0; /* Remove the default left margin */
+  padding-left:0; /* Remove the default left padding */
+}
+.bagian-respons-list ol > li {
+  position: relative; /* Create a positioning context */
+  margin:0 0 20px 2rem; /* Give each list item a left margin to make room for the numbers */
+  padding: 4px 20px; /* Add some spacing around the content */
+  list-style:none; /* Disable the normal item numbering */
+}
+.bagian-respons-list ol > li:before {
+  content:counter(li); /* Use the counter as content */
+  counter-increment:li; /* Increment the counter by 1 */
+  /* Position and style the number */
+  position:absolute;
+  top:-2px;
+  left:-2em;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  width:2em;
+  /* Some space between the number and the content in browsers that support
+     generated content but not positioning it (Camino 2 is one example) */
+  margin-right:8px;
+  padding:4px;
+  border-radius: 20px;
+  color:#f7f7f7;
+  background:#cbcbcb;
+  font-weight:bold;
+  font-family:"Helvetica Neue", Arial, sans-serif;
+  text-align:center;
+}
+.bagian-respons-list li ol,
+li ul {margin-top:6px;}
+ol ol li:last-child {margin-bottom:0;}
+
+.package {
+  background-color: #eeebee;
+  text-align: center;
+  padding: 80px;
+}
+
+.packages-light ul{
+  margin-left: 120px;
+  list-style: none;
+  display: flex;
+}
+
+.packages-light ul li {
+  list-style: none;
+  padding: 50px 60px;
+  background-image: url("/images/grey-icon-11.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 70px;
+  background-size: 50px;
+}
+
+.packages-light h1{
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.packages-light h4{
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  opacity: 60%;
+}
+
+.packages-stars ul{
+  margin-left: 120px;
+  list-style: none;
+  display: flex;
+  margin-bottom: 100px
+}
+
+.packages-stars ul li {
+  list-style: none;
+  padding: 50px 60px;
+  background-image: url("/images/star-6-512.png");
+  background-repeat: no-repeat;
+  background-position: 0 70px;
+  background-size: 50px;
+}
+
+.packages-stars h1{
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.packages-stars h4{
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  opacity: 60%;
+}
+
+.closing {
+  padding: 50px 100px 100px;
+}
+
+.closing-statement {
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.closing-statement h1{
+  font-weight: bolder;
+}
+
+.closing-statement h3{
+  font-weight: 500;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.button {
+  background-color: #11052b;
+  border: none;
+  color: white;
+  padding: 20px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-size: 18px;
+  font-weight: 500;
+}
