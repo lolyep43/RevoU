@@ -235,7 +235,7 @@ ol ol li:last-child {
 .packages-light ul li {
   list-style: none;
   padding: 50px 60px;
-  background-image: url('/images/light.jpg');
+  background-image: url('images/light.jpg');
   background-repeat: no-repeat;
   background-position: 0 70px;
   background-size: 50px;
@@ -264,7 +264,7 @@ ol ol li:last-child {
 .packages-stars ul li {
   list-style: none;
   padding: 50px 60px;
-  background-image: url('/images/star.png');
+  background-image: url('images/star.png');
   background-repeat: no-repeat;
   background-position: 0 70px;
   background-size: 50px;
